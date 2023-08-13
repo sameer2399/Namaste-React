@@ -1,0 +1,67 @@
+1.	WHAT IS EMMET?
+
+Emmet is a popular toolkit for web developers and front-end designers that enables rapid and efficient HTML and CSS coding. It was originally developed as a plugin for code editors like Sublime Text but has since been integrated into various other code editors and integrated development environments (IDEs).
+Emmet uses a shorthand syntax to help developers write HTML and CSS code more quickly. It allows you to write complex code structures using simple and abbreviated expressions. For instance, instead of typing out full HTML tags and attributes, you can use Emmet's shortcuts to generate them automatically.
+
+
+2.	Difference between a library and a framework?
+
+A library and a framework are both software development tools that assist developers in building applications more efficiently, but they serve different purposes and have different levels of control over the development process. Here's the key difference between the two:
+1.	Library: A library is a collection of pre-written code (functions, classes, modules, etc.) that developers can use to perform specific tasks. Libraries are designed to be reusable and can be thought of as a set of tools that you can include in your code to accomplish specific functionalities without having to build those functionalities from scratch. Developers have more control over the flow of their application when using a library, as they explicitly call the library's functions or classes when needed.
+Example: jQuery is a popular JavaScript library that simplifies tasks like DOM manipulation, event handling, and AJAX requests. Developers use jQuery by including its scripts and then calling its functions to interact with the webpage's elements and behaviors.
+2.	Framework: A framework is a more comprehensive and structured tool that provides a skeleton for building applications. It includes not only pre-written code but also a set of rules, conventions, and design patterns that dictate how an application should be structured and how different components should interact. Frameworks often control the flow of the application, requiring developers to adhere to certain patterns and practices.
+Frameworks abstract a lot of the lower-level details and provide a higher-level structure for building applications. This can speed up development but might also restrict developers to the framework's way of doing things.
+Example: Ruby on Rails is a web application framework for the Ruby programming language. It provides a structure for building web applications, including features like routing, database management, and templating. Developers using Rails follow its conventions to create applications in a consistent and organized manner.
+In summary, a library provides specific tools and functionalities that developers can use on a case-by-case basis, giving them more control over the application's structure. On the other hand, a framework offers a more comprehensive solution with a predefined structure and set of rules, which can help developers build applications faster but might limit flexibility and require adherence to the framework's design patterns.
+
+
+
+
+3.	What is CDN? Why do we use it?
+
+A CDN, or Content Delivery Network, is a network of distributed servers that work together to deliver web content, such as images, videos, stylesheets, scripts, and other assets, to users based on their geographic location. CDNs are designed to improve the performance, speed, and availability of web content by reducing the distance between the user and the server hosting the content.
+
+
+
+
+4.	Why is React known as react?
+
+React, also known as React.js, is a popular JavaScript library for building user interfaces in web applications. It was developed by Facebook (now Meta Platforms, Inc.) and was first released in 2013. The name "React" is derived from the way the library handles changes in the user interface and efficiently updates the DOM (Document Object Model) to reflect those changes.
+
+
+
+
+5.	What is cross-origin in the script tag?
+
+In web development, the concept of "cross-origin" pertains to interactions between different domains, protocols, or ports. When you load resources like scripts, stylesheets, images, or other assets from a different origin (domain, protocol, or port) than the one your web page is hosted on, you're dealing with cross-origin requests.
+The Same-Origin Policy is a security feature implemented by web browsers to prevent malicious websites from making unauthorized requests to resources on other domains. This policy restricts web pages from making requests for resources on a different origin unless explicit permissions are granted.
+
+
+
+
+
+6.	What is the difference between react and react DOM ?
+
+React and ReactDOM are two related libraries in the React ecosystem, both developed by Facebook (now Meta Platforms, Inc.), but they serve different purposes in the process of building user interfaces for web applications.
+In summary, React is the core library for building user interfaces in a modular and declarative manner, while ReactDOM is a package that handles the rendering of React components into the browser's DOM. Together, they work to provide an efficient and structured way to create interactive web applications with reusable components.
+
+
+
+
+7.	what is the difference between react.development.js and react.production.js files via cdn?
+
+When using a CDN, you have the option to choose which version of React to include based on whether you are working on development or deploying your application to production:
+•	During development: Use react.development.js for access to development tools, warnings, and better debugging capabilities.
+•	For production deployment: Use react.production.js for a smaller and optimized version that omits development features and is suitable for performance-critical environments.
+It's important to switch to the production version of React when deploying your application to ensure optimal performance and a better user experience.
+
+
+
+
+
+8.	What are async and defer?
+
+here's a quick comparison between async and defer:
+•	Use async when the script can be executed independently of other scripts and the order of execution isn't critical.
+•	Use defer when you want to maintain the order of script execution and ensure that scripts run after the DOM has been fully parsed.
+
